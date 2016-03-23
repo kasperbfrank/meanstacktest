@@ -1,0 +1,8 @@
+/* line 1, sass/app.scss */
+.foo {
+  color: #000;
+}
+/* line 3, sass/app.scss */
+.foo #bar {
+  color: #000;
+}

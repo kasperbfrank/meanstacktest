@@ -1,0 +1,23 @@
+{
+  "name": "mean-test",
+  "description": "MEAN stack test application",
+  "main": "index.js",
+  "authors": [
+    "Kasper Bruus Frank"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "MEAN",
+    "test"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "toastr": "^2.1.2",
+    "angular": "^1.5.2",
+    "angular-resource": "^1.5.2",
+    "angular-route": "^1.5.2"
+  }
+}
