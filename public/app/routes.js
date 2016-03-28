@@ -32,6 +32,9 @@
                     resolve: {
                         authenticate: function(identity, $location) {
                             if (identity.isAuthenticated()) {
+                                if (identity.isAdmin()) {
+                                    $location.path('/');
+                                }
                                 return true;
                             } else {
                                 $location.path('/');

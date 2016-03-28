@@ -1,11 +1,11 @@
 .navbar-right(ng-controller="Login as vm")
     form.navbar-form(ng-hide="vm.identity.isAuthenticated()")
-        a(href="/signup") Sign up
+        a(href="/signup") Sign Up
         .form-group
-            input.form-control(placeholder="Email", ng-model="vm.username")
+            input.form-control(placeholder="Username", ng-model="vm.username")
         .form-group
             input.form-control(type="password", placeholder="Password", ng-model="vm.password")
-        button.btn.btn-primary(ng-click="vm.signin(vm.username, vm.password)") Sign in
+        button.btn.btn-primary(ng-click="vm.signin(vm.username, vm.password)") Sign In
     ul.nav.navbar-nav.navbar-right(ng-show="vm.identity.isAuthenticated()")
         li.dropdown
             a.dropdown.toggle(href="", data-toggle="dropdown")
@@ -14,7 +14,7 @@
             ul.dropdown-menu
                 li(ng-show="vm.identity.isAdmin()")
                     a(href="admin/users") User Admin
-                li
+                li(ng-hide="vm.identity.isAdmin()")
                     a(href="/profile") Profile
                 li
                     a(href="", ng-click="vm.signout()") Sign Out
