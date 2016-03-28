@@ -21,7 +21,7 @@ userSchema.methods = {
 }
 
 var User = mongoose.model('User', userSchema);
-
+ 
 function createDefaultUsers() {
     User.find({}).exec(function(err, collection) {
         if(collection.length === 0) {
