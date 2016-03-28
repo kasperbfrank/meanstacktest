@@ -1,8 +1,40 @@
 /* line 1, sass/app.scss */
-.foo {
-  color: #000;
+body {
+  padding-top: 61px;
 }
-/* line 3, sass/app.scss */
-.foo #bar {
-  color: #000;
+
+/* line 6, sass/app.scss */
+.navbar-header .navbar-brand {
+  margin-top: -15px;
+  margin-bottom: -20px;
+}
+/* line 9, sass/app.scss */
+.navbar-header .navbar-brand h6 {
+  color: #ccc;
+}
+
+/* line 15, sass/app.scss */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/* line 19, sass/app.scss */
+footer p {
+  padding-top: 15px;
+  border-top: 1px solid #ccc;
+}
+
+/* line 26, sass/app.scss */
+.navbar-form .form-group {
+  margin-left: 10px;
+}
+/* line 29, sass/app.scss */
+.navbar-form button {
+  margin-left: 10px;
+}
+
+/* line 34, sass/app.scss */
+.toast-top-right {
+  top: 70px;
 }

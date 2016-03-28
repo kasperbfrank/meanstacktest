@@ -1,6 +1,36 @@
-.foo {
-    color: #000;
-    #bar {
-        color: #000;
+body {
+    padding-top: 61px;
+}
+
+.navbar-header {
+    .navbar-brand {
+        margin-top: -15px;
+        margin-bottom: -20px;
+        h6 {
+            color: #ccc;
+        }
     }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    p {
+        padding-top: 15px;
+        border-top: 1px solid #ccc;
+    }
+}
+
+.navbar-form {
+    .form-group {
+        margin-left: 10px;
+    }
+    button {
+        margin-left: 10px;
+    }
+}
+
+.toast-top-right {
+    top: 70px;
 }
